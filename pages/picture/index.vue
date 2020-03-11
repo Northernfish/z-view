@@ -22,8 +22,7 @@
               v-if="info"
               class="card-img"
               :src="info.fileUrl"
-              mode="widthFix"
-              :animation="fadeAnimation"
+              mode="aspectFill"
               @click="onImageClick"
             ></image>
           </template>
@@ -74,7 +73,10 @@
           imageClick: false
         },
         fabPattern: {
-          buttonColor: '#ff80ab'
+          color: 'rgba(255, 255, 255, 1)',
+          selectedColor: '#007AFF',
+          backgroundColor: 'rgba(0, 0, 0, .4)',
+          buttonColor: 'rgba(0, 0, 0, .4)'
         },
         // 图片双击时长250ms
         imageDblclickDuration: 250

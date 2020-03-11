@@ -7,7 +7,7 @@
 
 .index {
 	flex: 1;
-  width: 750upx;
+  width: 100vw;
   /* min-height: 100vh; */
 	flex-direction: column;
 	justify-content: flex-start;
@@ -24,8 +24,7 @@
 
 .card {
 	position: relative;
-	width: 710upx;
-	margin: 20upx 20upx 20upx 20upx;
+	width: 100vw;
 	border-radius: 10upx;
 	overflow: hidden;
 	flex-direction: column;
@@ -37,12 +36,12 @@
 }
 
 .card-img {
-	width: 710upx;
-	height: 1065upx;
+	width: 100vw;
+	height: 100vh;
 }
 
 .card-video {
-  width: 710upx;
+  width: 100vw;
 }
 
 .card-num {

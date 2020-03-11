@@ -76,8 +76,7 @@
       },
       onBlur(event) {
         let _t = this
-        console.log('event', event.detail.value, _t.apiPath)
-        localStorage.setItem('api', _t.apiPath)
+        uni.setStorageSync('api', _t.apiPath)
          _t.$Z.config.api = _t.apiPath
       }
     }

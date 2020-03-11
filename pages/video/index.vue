@@ -66,7 +66,10 @@
         // 标识列表
         flagMap: {},
         fabPattern: {
-          buttonColor: '#ff80ab'
+          color: 'rgba(255, 255, 255, 1)',
+          selectedColor: '#007AFF',
+          backgroundColor: 'rgba(0, 0, 0, .4)',
+          buttonColor: 'rgba(0, 0, 0, .4)'
         },
         videoContext: null
       }
