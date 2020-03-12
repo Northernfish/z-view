@@ -5,6 +5,7 @@
 		},
 		onShow: function() {
 			console.log('App Show')
+      uni.setKeepScreenOn({ keepScreenOn: true })
 		},
 		onHide: function() {
 			console.log('App Hide')
